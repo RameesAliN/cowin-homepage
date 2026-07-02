@@ -1,9 +1,8 @@
+import HeroSection from '@/component/HeroSection';
+import styles from '../styles/hero.module.css'
+
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center">
-      <button className="btn btn-primary">
-        DaisyUI Works! 🚀
-      </button>
-    </div>
-  );
+  return (<>
+  <HeroSection/>
+  </>);
 }

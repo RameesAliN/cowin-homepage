@@ -1,0 +1,137 @@
+.hero {
+  background-image: url('../../public/precaution_banner_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.sub_heading {
+  font-size: 1.5rem;
+}
+
+.hero_status {
+  font-weight: 500;
+}
+
+.hero_status_left {
+  background-color: #017C7B !important;
+}
+
+.hero_status_right {
+  background-color: #04C4C3 !important;
+}
+
+.status_button {
+  background-color: #FBBF02;
+  color: black;
+  border: 3px white solid !important;
+  font-weight: 500;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+  }
+
+  .sub_heading {
+    font-size: 1.2rem;
+  }
+
+  .hero_banner {
+    font-size: 1.2rem;
+  }
+
+  .hero_pm {
+    font-size: .9rem;
+  }
+
+  .hero_status {
+    min-height: unset;
+    flex-direction: column;
+    padding: 2rem 1.5rem !important;
+    gap: 1.25rem;
+  }
+
+  .hero_status_left {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%) !important;
+  }
+
+  .hero_status_right {
+    clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%) !important;
+  }
+
+  .status_button {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1027px) {
+  .hero_status {
+    min-height: 5.5rem;
+    font-size: .9rem;
+    padding: 0 !important;
+  }
+
+  .hero_status_left {
+    clip-path: polygon(0 0, 51.5% 0, 48% 100%, 0 100%) !important;
+  }
+
+  .hero_status_right {
+    clip-path: polygon(51.5% 0, 100% 0, 100% 100%, 48% 100%) !important;
+  }
+
+  .status_button {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1028px) {
+  .sub_heading {
+    font-size: 1.9rem;
+    line-height: 1.8;
+  }
+
+  .hero_banner {
+    font-size: 2rem;
+  }
+
+  .hero_pm {
+    font-size: 1.3rem;
+  }
+
+  .hero_status {
+    min-height: 5.5rem;
+    padding: 0 !important;
+    font-size: 1.1rem;
+  }
+
+  .hero_status_left {
+    clip-path: polygon(0 0, 51.5% 0, 48% 100%, 0 100%) !important;
+  }
+
+  .hero_status_right {
+    clip-path: polygon(51.5% 0, 100% 0, 100% 100%, 48% 100%) !important;
+  }
+
+  .status_button {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

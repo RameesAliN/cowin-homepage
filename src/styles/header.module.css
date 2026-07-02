@@ -1,0 +1,85 @@
+.topbar {
+  background-color: #045d5d;
+  border-bottom: 1px solid #045d5d;
+  font-size: 12px;
+  color: white;
+}
+
+.ashoka {
+  width: 22px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gov_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.langToggle {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.main_nav {
+  background-color: rgb(1, 126, 126) !important;
+  color: white !important;
+}
+
+.logo_2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.nav_list {
+  flex-wrap: nowrap;
+  min-width: 0; /* allows children to shrink instead of overflowing */
+}
+.link {
+  text-decoration: none;
+  color: white !important;
+  font-size: .9rem !important;
+  font-weight: 500;
+  padding-left: 1.8rem !important;
+  padding-right: 1.8rem !important;
+   white-space: normal; /* wraps only if it doesn't fit */
+  word-break: normal;
+}
+.link:hover {
+  color: orange !important;
+}
+.nav_button {
+  background-color: transparent;
+  color: white;
+  font-size: .8rem !important;
+  font-weight: 500;
+  padding: .2rem .7rem;
+  border-radius: 2rem;
+  border: 0.15rem solid white;
+}
+.nav_button:hover {
+  color: red;
+  border: 2px solid orange;
+}
+.nav_toggle_button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.nav_toggle_wrap {
+  position: relative;
+}
+
+.nav_toggle_wrap .dropdown-menu {
+  margin-top: 0.5rem;
+  z-index: 1050;
+}
+.humbergur_icon{
+  text-decoration: none;
+}

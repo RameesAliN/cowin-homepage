@@ -31,7 +31,7 @@ function HeroSection() {
 
         <div className="col-11 col-md-6 col-lg-5 order-1 order-md-2">
           <div className={`${styles.hero_flag} pe-md-5 pe-lg-0`}>
-            <img src="independance.svg" class="img-fluid"></img>
+            <img src="independance.svg" className="img-fluid"></img>
           </div>
         </div>
 

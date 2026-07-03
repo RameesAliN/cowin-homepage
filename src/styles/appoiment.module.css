@@ -1,0 +1,106 @@
+.vaccination_steps{
+  background-color: #EDFFFF;
+}
+.vaccination_steps_head{
+  color: #017C7B;
+}
+.vaccination_card{
+  width: 18vw;
+  color:#017C7B;
+}
+.card_badge{
+  font-size:medium;
+  border: 1px #017C7B solid !important;
+}
+.card_title{
+  background-color: #017C7B;
+  line-height: 2.5;
+  text-align: center;
+}
+.card_footer{
+  line-height: 1.6;
+  text-align: center;
+  font-size: smaller;
+}
+.arrow{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #017C7B;
+}
+
+
+@media (min-width: 1px) and (max-width: 768px){
+   .vaccination_steps_head{
+    font-size: 1.4rem;
+  }
+  .vaccination_card{
+    margin-bottom: 1.8rem;
+    width: 80vw !important;
+    height: 40vh;
+  }
+  .card_image{
+    max-height: 54%;
+  }
+  .card_title{
+    height: 30%;
+  }
+  .card_footer{
+    height: 16%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1027px){
+  .vaccination_steps_head{
+    font-size: 1.7rem;
+  }
+  .card_badge{
+    font-size: smaller;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .vaccination_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_image {
+    height: 6rem;
+    object-fit: contain;
+    width: 100%;
+  }
+   .card_title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_footer {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1028px) {
+  .vaccination_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_image {
+   height: 8rem; 
+    object-fit: contain;
+    width: 100%;
+  }
+   .card_title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_footer {
+    height:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

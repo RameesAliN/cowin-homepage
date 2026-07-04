@@ -1,5 +1,10 @@
 /* @import "tailwindcss";
 @plugin "daisyui"; */
+:root {
+  /* Colors */
+  --primary-color:#017C7B;
+  --secondary-color:#04C4C3;
+}
 body {
   font-family: Roboto, sans-serif;
   font-size: 1rem;

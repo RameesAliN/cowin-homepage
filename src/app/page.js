@@ -6,6 +6,7 @@ import VaccinationCenter from '@/component/VaccinationCenter';
 import VaccinationDetails from '@/component/VaccinationDetails';
 import RaiseAnIssue from '@/component/RaiseAnIssue';
 import WhatIsNew from '@/component/WhatIsNew';
+import LargestVacinationDrive from '@/component/LargestVacinationDrive';
 
 export default function Home() {
   return (<>
@@ -15,5 +16,6 @@ export default function Home() {
   <VaccinationDetails/>
   <RaiseAnIssue/>
   <WhatIsNew/>
+  <LargestVacinationDrive/>
   </>);
 }

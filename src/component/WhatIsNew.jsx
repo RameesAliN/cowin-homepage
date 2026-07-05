@@ -27,7 +27,7 @@ function WhatIsNew() {
   return (
     <section className={`pt-5 d-flex flex-column align-items-center ${styles.main}`}>
       <h3 className={`fw-bold ${styles.main_h3}`}>What's new on Co-WIN ?</h3>
-      <div className='row w-100 pt-5 d-flex flex-column align-items-center'>
+      <div className='row w-100 pt-5 d-flex flex-column align-items-center flex-md-row'>
 
         <div className='col-md-9'>
           <div className='row'>

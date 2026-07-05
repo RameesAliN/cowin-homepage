@@ -61,7 +61,7 @@ function VaccinationCenter() {
 
       {/*booking */}
       <div className={`d-flex flex-column flex-md-row align-items-center justify-content-md-between pt-5`}>
-        <div className={`ps-4 d-flex flex-column align-items-center justify-content-md-center  align-items-start order-2 order-md-1 ${styles.center_book}`}>
+        <div className={`ps-4 d-flex flex-column align-items-center align-items-md-start justify-content-md-center  align-items-start order-2 order-md-1 ${styles.center_book}`}>
           <h2 className={`fw-bold pb-3`}>Free COVID Precaution Dose</h2>
           <p className={styles.center_book_p}>Now Precaution dose for 18-59 age group free at Government Vaccination Center.</p>
           <button className={styles.center_book_btn}>Book Your Slot</button>

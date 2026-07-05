@@ -1,0 +1,85 @@
+.report,
+.date_div,
+.status_div {
+  background-color: #edffff;
+}
+
+.center_book,
+.children,
+.date,
+.precaution,
+.status,
+.healthId {
+  color: var(--primary-color);
+}
+
+
+.center_book_btn,
+.date_btn,
+.status_btn,
+.healthId_btn {
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.children_btn,
+.precaution_btn {
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.healthId_p{
+  text-align: center;
+}
+.healthId_img{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1px) and (max-width: 576px) {
+
+  .center_book_p,
+  .date_p,
+  .status_p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1027px) {
+
+  .date,
+  .status {
+    max-width: 50vw;
+  }
+
+  .children,
+  .precaution {
+    max-width: 40vw;
+  }
+}
+
+@media (min-width: 1027px) {
+
+  .date,
+  .status {
+    max-width: 50vw;
+  }
+
+  .children,
+  .precaution {
+    max-width: 40vw;
+  }
+}

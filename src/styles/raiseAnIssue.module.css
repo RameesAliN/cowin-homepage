@@ -1,0 +1,74 @@
+.issue{
+  background-color: var(--primary-color);
+  color: white;
+}
+.issue_buttons{
+  padding-left: 19vw;
+}
+.button_wrapper{
+  font-size: 1.9rem;
+}
+.issue_button{
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(160, 150, 150, 0.6);
+  background-color: transparent;
+  color: rgba(243, 242, 242, 0.6);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+}
+.issue_button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+.issue_details{
+  background-color: white;
+  color:var(--primary-color);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 1px) and (max-width: 576px){
+ .issue_buttons{
+  padding-left: 0vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+} 
+.button_wrapper{
+  font-size: 1.5rem;
+}
+.issue_button{
+  margin-top: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid rgba(160, 150, 150, 0.6);
+  background-color: transparent;
+  color: rgba(243, 242, 242, 0.6);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

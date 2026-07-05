@@ -4,6 +4,7 @@ import styles from '../styles/hero.module.css'
 import Appoiment from '@/component/Appoiment';
 import VaccinationCenter from '@/component/VaccinationCenter';
 import VaccinationDetails from '@/component/VaccinationDetails';
+import RaiseAnIssue from '@/component/RaiseAnIssue';
 
 export default function Home() {
   return (<>
@@ -11,5 +12,6 @@ export default function Home() {
   <Appoiment/>
   <VaccinationCenter/>
   <VaccinationDetails/>
+  <RaiseAnIssue/>
   </>);
 }

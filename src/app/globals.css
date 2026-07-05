@@ -4,6 +4,7 @@
   /* Colors */
   --primary-color:#017C7B;
   --secondary-color:#04C4C3;
+  --third-color:#edffff;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -12,7 +13,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  height: 9000px;
+  height: 10000px;
 }
 *,
 *::before,

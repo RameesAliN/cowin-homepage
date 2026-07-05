@@ -5,6 +5,7 @@ import Appoiment from '@/component/Appoiment';
 import VaccinationCenter from '@/component/VaccinationCenter';
 import VaccinationDetails from '@/component/VaccinationDetails';
 import RaiseAnIssue from '@/component/RaiseAnIssue';
+import WhatIsNew from '@/component/WhatIsNew';
 
 export default function Home() {
   return (<>
@@ -13,5 +14,6 @@ export default function Home() {
   <VaccinationCenter/>
   <VaccinationDetails/>
   <RaiseAnIssue/>
+  <WhatIsNew/>
   </>);
 }

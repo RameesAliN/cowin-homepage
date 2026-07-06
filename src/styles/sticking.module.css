@@ -1,0 +1,28 @@
+.sticky_text {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.sticky_text span {
+  font-size: 1.1rem !important;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid_support_badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--secondary-color);
+  color: #E1F5EE;
+  padding: 9px 20px 9px 18px;
+  border-radius: 50px 0 0 50px;
+  cursor: pointer;
+  font-size: smaller;
+  font-weight: 500;
+  position: fixed;
+  right: 0;
+  top: 40%;
+}

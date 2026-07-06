@@ -14,11 +14,11 @@
 }
 
 .hero_status_left {
-  background-color: #017C7B !important;
+  background-color: var(--primary-color) !important;
 }
 
 .hero_status_right {
-  background-color: #04C4C3 !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .status_button {

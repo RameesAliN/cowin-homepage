@@ -3,7 +3,8 @@ import styles from '../styles/partners.module.css'
 
 function Partners() {
   return (
-    <section className={`pt-5 ${styles.main}`}>
+    <div className='container-fluid'>
+      <section className={`pt-5 ${styles.main}`}>
       <h2 className='fw-bold text-center'>Our Partners</h2>
       <div className='row pt-5'>
 
@@ -31,6 +32,7 @@ function Partners() {
 
       </div>
     </section>
+    </div>
   )
 }
 

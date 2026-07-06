@@ -1,0 +1,11 @@
+.footertwo{
+  color: white;
+  background-color: var(--primary-color);
+   font-size: 12px;
+}
+.text{
+  color: white;
+}
+.text:hover{
+  text-decoration: underline;
+}

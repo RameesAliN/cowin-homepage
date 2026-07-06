@@ -9,11 +9,14 @@ import WhatIsNew from '@/component/WhatIsNew';
 import LargestVacinationDrive from '@/component/LargestVacinationDrive';
 import Partners from '@/component/Partners';
 import Footer from '@/component/Footer';
+import FooterTwo from '@/component/FooterTwo';
+import Sticking from '@/component/Sticking';
 
 
 export default function Home() {
   return (<>
-  {/* <HeroSection/> */}
+  <Sticking/>
+  <HeroSection/>
   <Appoiment/>
   <VaccinationCenter/>
   <VaccinationDetails/>
@@ -22,5 +25,6 @@ export default function Home() {
   <LargestVacinationDrive/>
   <Partners/>
   <Footer/>
+  <FooterTwo/>
   </>);
 }

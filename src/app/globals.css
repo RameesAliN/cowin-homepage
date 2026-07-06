@@ -2,8 +2,10 @@
 @plugin "daisyui"; */
 :root {
   /* Colors */
-  --primary-color:#017C7B;
-  --secondary-color:#04C4C3;
+  --primary-color:#045d5d;
+  --secondary-color:#017C7B;
+  /* --primary-color:#017C7B;
+  --secondary-color:#04C4C3; */
   --third-color:#edffff;
 }
 body {

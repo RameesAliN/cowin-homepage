@@ -3,7 +3,8 @@ import styles from '../styles/footer.module.css'
 
 function Footer() {
   return (
-    <footer className={`mt-5 ${styles.footer} row ps-5`}>
+   <div className='container-fluid'>
+     <footer className={`mt-5 ${styles.footer} row ps-5`}>
       <div className={`col-6 col-md-4 col-lg-2 px-2 ${styles.footer_col}`}>
         <h6 className='text-uppercase pb-4'>Vaccination Services</h6>
         <p className='small'>Register Members</p>
@@ -69,6 +70,7 @@ function Footer() {
 
       </div>
     </footer>
+   </div>
   )
 }
 

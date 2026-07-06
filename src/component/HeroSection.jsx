@@ -3,7 +3,7 @@ import styles from '../styles/hero.module.css'
 
 function HeroSection() {
   return (<>
-    <section>
+    <section className='container-fluid'>
       <div className={`row d-flex flex-row pt-3 ${styles.hero}`}>
 
 

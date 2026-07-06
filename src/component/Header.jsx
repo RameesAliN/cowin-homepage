@@ -20,7 +20,7 @@ function Header() {
   ]
   return <>
     <BootstrapClient/>
-    <header className='d-flex flex-column' >
+    <header className='d-flex flex-column sticky-top' >
 
       {/* first nav */}
       <div className={`${styles.topbar} navbar d-flex flex-wrap align-items-center justify-content-between px-lg-2`}>

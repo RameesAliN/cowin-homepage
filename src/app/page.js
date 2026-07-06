@@ -8,6 +8,7 @@ import RaiseAnIssue from '@/component/RaiseAnIssue';
 import WhatIsNew from '@/component/WhatIsNew';
 import LargestVacinationDrive from '@/component/LargestVacinationDrive';
 import Partners from '@/component/Partners';
+import Footer from '@/component/Footer';
 
 
 export default function Home() {
@@ -20,5 +21,6 @@ export default function Home() {
   <WhatIsNew/>
   <LargestVacinationDrive/>
   <Partners/>
+  <Footer/>
   </>);
 }

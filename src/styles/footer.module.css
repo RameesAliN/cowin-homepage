@@ -1,0 +1,33 @@
+.footer{
+  background-color: var(--primary-color);
+  color: white;
+  padding-top: 1rem;
+}
+.footer_col{
+  padding-top: 1.2rem;
+  color: white;
+}
+.footer_col h6{
+  font-size: 14px;
+  color: #99d9d9;
+}
+.footer_col p{
+  font-size: 12px;
+  line-height: .9rem;
+}
+.footer_col_child{
+  border-top: 1px solid #094848;
+}
+.footer_col_child h6{
+  color: #99d9d9;
+}
+@media (min-width: 1px) and (max-width: 576px){
+  .footer_col_child h6{
+    font-size: 12px;
+    white-space: nowrap;
+    padding-top: 10px;
+  }
+  .footer_col_child p{
+    font-size: 10px;
+  }
+}
